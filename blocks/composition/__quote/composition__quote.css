@@ -1,0 +1,45 @@
+.composition__quote {
+  max-width: 291px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .composition__quote {
+    border-bottom: 1px solid black;
+    padding: 30px 0 30px 0;
+    max-width: 688px;
+  }
+  .composition__quote:first-of-type {
+    padding: 0 0 30px 0;
+  }
+
+  .composition__quote:last-of-type {
+    border: none;
+    padding: 30px 0 0 0;
+  }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .composition__quote {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 14px 0 14px 0;
+  }
+  .composition__quote:first-of-type {
+    padding: 0 0 12px 0;
+  }
+
+  .composition__quote:last-of-type {
+    border: none;
+    padding: 12px 0 0 0;
+  }
+}
+

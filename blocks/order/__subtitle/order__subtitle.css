@@ -1,0 +1,25 @@
+.order__subtitle {
+  margin: 0 0 106px 0;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  max-width: 648px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  /* or 100% */
+}
+
+@media screen and (max-width: 1439px) {
+  .order__subtitle {
+    padding: 0 0 60px 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .order__subtitle {
+    font-size: 32px;
+    line-height: 38px;
+    padding: 30px 0 60px 0;
+  }
+}

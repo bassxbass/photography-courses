@@ -1,0 +1,25 @@
+.singup__button {
+  width: 205px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px 8px 8px 0px;
+  text-align: center;
+  height: 50px;
+  margin-left: 0;
+  cursor: pointer;
+  background-color: #fff;
+  border-left: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-align: center;
+  letter-spacing: 0.375px;
+}
+
+@media screen and (max-width: 767px) {
+  .singup__button {
+    max-width: 107px;
+    font-size: 11px;
+  }
+}

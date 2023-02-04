@@ -1,0 +1,17 @@
+.foto__nav {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .foto__nav {
+    font-size: 14px;
+    line-height: 20px;
+    border-top: 1px solid #FFFFFF;
+    padding: 20px 0 0 0;
+  }
+}

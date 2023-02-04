@@ -1,0 +1,24 @@
+.header__menu-button {
+  display: none;
+  background-image: url(../../../images/menu.svg);
+  background-size: contain;
+  background-color: #DF2626;
+  width: 32px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-button {
+    display: block;
+    margin: 0 40px 0 0;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-button {
+    margin: 0 20px 0 0;
+  }
+}

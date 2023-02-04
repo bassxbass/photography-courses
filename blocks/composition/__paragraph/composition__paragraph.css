@@ -1,0 +1,35 @@
+.composition__paragraph {
+  max-width: 400px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.composition__paragraph:last-of-type {
+  margin: 20px 0 195px 0;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .composition__paragraph {
+    margin: 60px 0 0 0;
+  }
+  .composition__paragraph:last-of-type {
+    margin: 20px 0 60px 0;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .composition__paragraph {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .composition__paragraph:last-of-type {
+    margin: 30px 0 35px 0;
+  }
+
+}

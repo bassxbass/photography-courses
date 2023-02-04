@@ -1,0 +1,10 @@
+.singup__input {
+  display: flex;
+}
+
+@media screen and (max-width: 1439px) {
+  .singup__input {
+    margin: 0;
+    padding: 10px 0 0 0;
+  }
+}

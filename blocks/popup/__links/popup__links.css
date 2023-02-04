@@ -1,0 +1,20 @@
+.popup__links {
+ display: flex;
+
+}
+
+@media screen and (max-width: 1439px) {
+  .popup__links {
+    display: block;
+    margin: 0 40px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup__links {
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    margin: 56px auto 6px;
+  }
+}

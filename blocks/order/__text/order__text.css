@@ -1,0 +1,26 @@
+.order__text {
+  margin: 24px 0 145px 312px;
+  grid-row: 3/4;
+  max-width: 380px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+}
+
+@media screen and (max-width: 1439px) {
+  .order__text {
+    grid-row: 4/5;
+    margin: 0;
+    padding: 15px 0 60px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .order__text {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 0 30px 0;
+
+  }
+}

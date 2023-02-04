@@ -1,0 +1,12 @@
+.popup__button {
+  background-image: url(../../../images/popup-img.svg);
+  background-size: 140%;
+  background-position: center;
+  background-color: red;
+  width: 27px;
+  height: 27px;
+  border: none;
+  padding: 0;
+  align-self: flex-start;
+  cursor: pointer;
+}

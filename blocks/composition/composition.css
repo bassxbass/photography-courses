@@ -1,0 +1,17 @@
+.composition {
+  background-color: #ffce00;
+  padding: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .composition {
+    padding: 40px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .composition {
+    padding: 40px 20px 20px 20px;
+  }
+}

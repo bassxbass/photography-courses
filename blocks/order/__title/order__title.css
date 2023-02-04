@@ -1,0 +1,23 @@
+.order__title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-transform: uppercase;
+  padding: 0 0 50px 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .order__title {
+    padding: 0 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .order__title {
+    font-size: 14px;
+    line-height: 20px;
+    border-top: 1px solid #000000;
+    padding: 20px 0 0 0;
+  }
+}

@@ -1,0 +1,32 @@
+.order__button {
+  margin: 0 0 0 312px;
+  grid-row: 4/5;
+  width: 228px;
+  height: 49px;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 9999px;
+}
+
+@media screen and (max-width: 1439px) {
+  .order__button {
+    grid-row: 5/6;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .order__button {
+    font-size: 14px;
+    line-height: 28px;
+    max-height: 40px;
+    max-width: 169px;
+  }
+}
+
+.order__button:hover {
+  font-weight: 500;
+}

@@ -1,0 +1,22 @@
+.order {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(4, minmax(min-content, max-content));
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .order {
+    grid-template-columns: repeat(1, minmax(min-content, max-content));
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .order {
+    padding: 40px 20px 20px 20px;
+
+  }
+}

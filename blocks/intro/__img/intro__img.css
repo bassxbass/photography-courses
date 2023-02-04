@@ -1,0 +1,22 @@
+.intro__img {
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/4;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .intro__img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 688px;
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__img {
+   width: 280px;
+   padding: 60px 0 55px 0;
+  }
+}

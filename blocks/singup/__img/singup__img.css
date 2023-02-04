@@ -1,0 +1,10 @@
+.singup__img {
+  align-self: flex-start;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1439px) {
+  .singup__img {
+    display: none;
+  }
+}

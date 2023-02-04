@@ -1,0 +1,10 @@
+.header {
+  margin: 0 auto;
+  /* position: fixed; */
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-button {
+    display: block;
+  }
+}

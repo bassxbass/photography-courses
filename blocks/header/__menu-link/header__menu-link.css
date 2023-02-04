@@ -1,0 +1,10 @@
+.header__menu-link {
+  text-decoration: none;
+  color: #FBFBFB;
+  
+}
+
+.header__menu-link:hover {
+  font-weight: 700;
+
+}
