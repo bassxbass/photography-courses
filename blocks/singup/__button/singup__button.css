@@ -23,3 +23,7 @@
     font-size: 11px;
   }
 }
+
+.singup__button:hover {
+  font-weight: 500;
+}

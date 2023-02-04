@@ -1,0 +1,15 @@
+.foto__feedback-profile {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .foto__feedback-profile {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
