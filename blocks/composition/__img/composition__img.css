@@ -1,21 +1,14 @@
 .composition__img {
-  grid-column: 2/3;
-  grid-row: 1/5;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1439px) {
   .composition__img {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    max-width: 688px;
-    height: 685px;
-    overflow: hidden;
+    width: 688px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .composition__img {
-    width: 280px;
-    height: 278px;
   }
 }

@@ -1,4 +1,4 @@
-.foto__feedback_text-person {
+.foto__feedback-person {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .foto__feedback_text-person {
+  .foto__feedback-person {
     font-size: 14px;
     line-height: 20px;
     padding: 0;

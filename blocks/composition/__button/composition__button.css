@@ -12,16 +12,10 @@
 @media screen and (max-width: 767px) {
   .composition__button {
     max-width: 169px;
-    padding: 6px 48px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .composition__button {
+    padding: 6px 40px;
     font-size: 14px;
     line-height: 28px;
     max-height: 40px;
-  
   }
 }
 

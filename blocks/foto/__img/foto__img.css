@@ -1,0 +1,9 @@
+.foto__img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .foto__img {
+    width: 688px;
+ }
+}
